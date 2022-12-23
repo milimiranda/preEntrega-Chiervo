@@ -9,23 +9,28 @@
 </head>
 <body>
     <header>
-        <a href="/index.html"><img src="/img/clinica-yunes-logo.jpg" alt="Clinica Logo" class="logo"></a>
-        <nav class="navbar">
-            <ul class="navbar-menu">
-                <li class="navbar-menu-item">
-                    <a class="navbar-menu-link" href="/index.html">Inicio</a>
+        <nav class="main-nav">
+            <div id="toggle-menu" class="toggle-menu">
+                <label for="toggle-menu-checkbox">
+                    <img src="/src/img/burger-icon.png" alt="BurgerCat">
+                </label>
+            </div>
+            <input type="checkbox" id="toggle-menu-checkbox" class="toggle-menu__checkbox">
+            <ul id="main-menu" class="main-menu">
+                <li class="main-menu__item">
+                    <a href="#" class="main-menu__link">Inicio</a>
                 </li>
-                <li class="navbar-menu-item">
-                    <a class="navbar-menu-link" href="/src/pages/turnos.html">Solicitar Turno</a>
+                <li class="main-menu__item">
+                    <a href="#" class="main-menu__link">Turnos</a>
                 </li>
-                <li class="navbar-menu-item">
-                    <a class="navbar-menu-link" href="/src/pages/profesionales.html">Profesionales</a>
+                <li class="main-menu__item">
+                    <a href="#" class="main-menu__link">Servicios</a>
                 </li>
-                <li class="navbar-menu-item">
-                    <a class="navbar-menu-link" href="/src/pages/nosotros.html">Nosotros</a>
+                <li class="main-menu__item">
+                    <a href="#" class="main-menu__link">Sobre Nosotros</a>
                 </li>
-                <li class="navbar-menu-item">
-                    <a class="navbar-menu-link" href="/src/pages/contacto.html">Contactanos</a>
+                <li class="main-menu__item">
+                    <a href="#" class="main-menu__link">Contactanos</a>
                 </li>
             </ul>
         </nav>
